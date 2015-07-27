@@ -15,7 +15,6 @@ import java.sql.Statement;
  * Description: Handles the database functionalities
  */
 public class DBConnManager {
-    private Connection connection = null; //Declaration of the Connection
     private static Statement statement = null; //Declaration of the Statement
     private static final String DB_NAME = "quotes"; //Declaration and initialization of the Database Name
     private static final String TABLE_NAME = "quote"; //Declaration and initialization of the Table Name
